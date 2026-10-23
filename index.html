@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haris Custom Water Bottles</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f2f8ff;color:#12304a}
+header{background:#0879c9;color:white;text-align:center;padding:28px 12px}
+h1{margin:0;font-size:28px}
+section{padding:22px 16px;text-align:center}
+.card{background:white;margin:14px auto;padding:20px;border-radius:14px;max-width:360px;box-shadow:0 3px 12px #ccd9e5}
+.bottle{font-size:65px}
+button{background:#0879c9;color:white;border:0;padding:13px 20px;border-radius:8px;font-size:16px}
+footer{text-align:center;background:#12304a;color:white;padding:18px}
+</style>
+</head>
+<body>
+<header>
+<h1>Haris Custom Water Bottles</h1>
+<p>Your Brand, Your Bottle!</p>
+<p>Faisalabad, Pakistan</p>
+</header>
+<section>
+<h2>Custom Logo Water Bottles</h2>
+<p>Apne business, hotel, restaurant ya event ke liye custom logo wali water bottles order karein.</p>
+<div class="card">
+<div class="bottle">💧</div>
+<h3>500ml Custom Bottle</h3>
+<p>Apne logo aur design ke saath.</p>
+<button onclick="order('500ml')">Order on WhatsApp</button>
+</div>
+<div class="card">
+<div class="bottle">💧</div>
+<h3>1.5 Litre Custom Bottle</h3>
+<p>Bari bottle, custom branding ke saath.</p>
+<button onclick="order('1.5 Litre')">Order on WhatsApp</button>
+</div>
+</section>
+<footer>
+<p>Haris Custom Water Bottles</p>
+<p>Faisalabad</p>
+</footer>
+<script>
+function order(size){
+let phone="923238968295";
+let msg="Assalam o Alaikum! Mujhe "+size+" custom logo water bottles ki price aur details chahiye.";
+window.open("https://wa.me/"+phone+"?text="+encodeURIComponent(msg),"_blank");
+}
+</script>
+</body>
+  </html>
+  
